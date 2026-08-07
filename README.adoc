@@ -3,19 +3,11 @@ ifndef::env-github[:icons: font]
 :toclevels: 2
 :sectanchors:
 
-ifndef::env-github[]
+[[readme-top]]
 image:https://img.shields.io/github/contributors/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Contributors,link=https://github.com/AMDphreak/crystaldiskmark-dlang/graphs/contributors]
 image:https://img.shields.io/github/forks/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Forks,link=https://github.com/AMDphreak/crystaldiskmark-dlang/network/members]
 image:https://img.shields.io/github/stars/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Stars,link=https://github.com/AMDphreak/crystaldiskmark-dlang/stargazers]
 image:https://img.shields.io/github/issues/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Issues,link=https://github.com/AMDphreak/crystaldiskmark-dlang/issues]
-endif::[]
-
-ifdef::env-github[]
-image:https://img.shields.io/github/contributors/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Contributors]
-image:https://img.shields.io/github/forks/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Forks]
-image:https://img.shields.io/github/stars/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Stars]
-image:https://img.shields.io/github/issues/AMDphreak/crystaldiskmark-dlang.svg?style=for-the-badge[Issues]
-endif::[]
 
 = CrystalDiskMark D
 
@@ -28,6 +20,8 @@ link:https://github.com/AMDphreak/crystaldiskmark-dlang/issues[Request Feature]
 
 A remake of the legendary CrystalDiskMark in Dlang, using dlangui for a modern, intuitive interface.
 
+link:#readme-top[back to top]
+
 == Features
 
 * [ ] Modern UI with common design metaphors
@@ -36,6 +30,8 @@ A remake of the legendary CrystalDiskMark in Dlang, using dlangui for a modern, 
 * [ ] Support for multiple drives
 * [ ] Dark mode support
 * [ ] Native Dlang implementation of benchmarks
+
+link:#readme-top[back to top]
 
 == Installation
 
@@ -51,6 +47,8 @@ A remake of the legendary CrystalDiskMark in Dlang, using dlangui for a modern, 
 dub build
 ----
 
+link:#readme-top[back to top]
+
 == Usage
 
 === Implementation Details
@@ -61,9 +59,13 @@ This project aims to replicate the core functionality of CrystalDiskMark while p
 
 Large sequential I/O tests are performed using `CreateFile` with `FILE_FLAG_NO_BUFFERING` and `FILE_FLAG_SEQUENTIAL_SCAN`. Random 4K tests use `FILE_FLAG_RANDOM_ACCESS` and overlapped I/O for high queue depths.
 
+link:#readme-top[back to top]
+
 == License
 
 MIT License — see the original CrystalDiskMark for details.
+
+link:#readme-top[back to top]
 
 == Contact
 
@@ -71,3 +73,5 @@ Ryan Johnson — link:https://twitter.com/amdphreak[@amdphreak]
 
 * Project: https://github.com/AMDphreak/crystaldiskmark-dlang
 * Site: https://ryanjohnson.dev
+
+link:#readme-top[back to top]
